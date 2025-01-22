@@ -1,5 +1,4 @@
 ### local setup
-Video instructions: https://youtu.be/PPxenu7IjGM
 
 - `cd /backend`
 - `pnpm install` or `npm i`
