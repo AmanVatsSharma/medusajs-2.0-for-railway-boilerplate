@@ -46,6 +46,24 @@ const medusaConfig = {
   },
   modules: [
     {
+      resolve: "./src/modules/tenant",
+      options: {
+        // Tenant-specific options
+      }
+    },
+    {
+      resolve: "./src/modules/brand",
+      // options: {
+      //   // Brand-specific options
+      // }
+    },
+    {
+      resolve: "./src/modules/store-analytics"
+    },
+    {
+      resolve: "./src/modules/wishlist",
+    },
+    {
       key: Modules.FILE,
       resolve: '@medusajs/file',
       options: {
